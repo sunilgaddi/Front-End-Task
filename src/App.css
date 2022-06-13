@@ -1,6 +1,7 @@
 .App {
   position: relative;
   width: 100vw;
+  min-width:420px;
   min-height:100vh;
   padding:50px 100px 0 100px;
   background-color:var(--clr-backgroud);

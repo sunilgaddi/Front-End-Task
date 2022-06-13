@@ -37,7 +37,7 @@ function Users() {
     return (
         <div className='users__list__section'>
             <div onClick={(e) => getUserId(e)} className='users__list__wrapper'>
-                <h2>All Users.</h2>
+                <h2 className='list__title'>All Users.</h2>
                 <div className='users__list'>
                     {isLoading ? <span>Loading .....</span> : 
                         allUsersList?.map((item) => {
@@ -50,7 +50,7 @@ function Users() {
             <div className='user__card__wrapper'>
                 {userId ?
                     <>
-                        <h2 className='title'>User Details</h2>
+                        <h2 className='details__title'>User Details</h2>
                         <div className='user__card'>
                             <img className='user__avatar' src={userDetails?.avatar} alt="avatar" />
                             <div className='user__details__wrapper'>
