@@ -1,0 +1,13 @@
+.nav__container{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding:10px 100px;
+    background-color:var(--clr-header);
+    z-index:100;
+}
+
+.nav__menu{
+    color:rgb(240, 230, 230);
+}
